@@ -31,20 +31,6 @@ const projects = [
     tags: ["React", "SSR", "Node.js", "Jest", "Agile"],
     color: "secondary",
   },
-  {
-    title: "Plataforma de Campanhas Automatizadas",
-    role: "Desenvolvedora Fullstack - Mercado Livre",
-    date: "2022 - 2025",
-    icon: Users,
-    description: "Modernização completa da plataforma, suportando 100K+ requisições por minuto durante picos de Black Friday.",
-    achievements: [
-      "Redução de 90% no tempo de configuração de campanhas",
-      "Validação em tempo real",
-      "Escalabilidade para 900+ usuários comerciais",
-    ],
-    tags: ["React", "Node.js", "PostgreSQL", "Express", "REST API"],
-    color: "accent",
-  },
 ];
 
 const Projects = () => {
@@ -60,7 +46,7 @@ const Projects = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {projects.map((project, index) => {
             const IconComponent = project.icon;
             return (
