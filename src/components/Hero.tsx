@@ -27,7 +27,7 @@ const Hero = () => {
           </p>
           
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
-            Sou Engenheira de Software e já atuei no maior e-commerce da América Latina, o Mercado Livre, desenvolvendo projetos de larga escala voltados a automação, inteligência artificial e experiência do usuário. Tenho vivência prática com React, Node.js, Python e Go, criando soluções que unificam tecnologia e design para tornar produtos mais rápidos, inteligentes e intuitivos. Gosto de transformar ideias complexas em sistemas que funcionam com clareza, eficiência e impacto real.
+            Sou Engenheira de Software com experiência em projetos de grande escala. Já atuei no maior e-commerce da América Latina, o Mercado Livre, desenvolvendo soluções com IA, React, Node.js, Python e Go. Crio sistemas que unem performance, automação e experiência do usuário, transformando tecnologia em resultados reais e inteligentes.
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-4 mb-8">
