@@ -13,7 +13,7 @@ const skillCategories = [
     title: "Backend",
     icon: Database,
     color: "secondary",
-    skills: ["Node.js", "Express.js", "PostgreSQL", "MySQL", "REST APIs"],
+    skills: ["Node.js", "Express.js", "PostgreSQL", "MySQL", "REST APIs", "Python", "Go"],
   },
   {
     title: "DevOps & Tools",
