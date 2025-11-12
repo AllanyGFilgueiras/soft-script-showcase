@@ -23,12 +23,11 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-4">
-            Fullstack Software Engineer
+            Software Engineer
           </p>
           
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
-            Especializada em criar aplicações web escaláveis e eficientes com React, Node.js e TypeScript. 
-            Apaixonada por código limpo, boas práticas e experiências de usuário encantadoras.
+            Sou Engenheira de Software e já atuei no maior e-commerce da América Latina, o Mercado Livre, desenvolvendo projetos de larga escala voltados a automação, inteligência artificial e experiência do usuário. Tenho vivência prática com React, Node.js, Python e Go, criando soluções que unificam tecnologia e design para tornar produtos mais rápidos, inteligentes e intuitivos. Gosto de transformar ideias complexas em sistemas que funcionam com clareza, eficiência e impacto real.
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-4 mb-8">
