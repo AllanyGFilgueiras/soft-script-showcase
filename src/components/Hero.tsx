@@ -14,13 +14,11 @@ const Hero = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center animate-fade-in">
           <div className="mb-6">
-            <div className="w-48 h-48 mx-auto rounded-full bg-gradient-primary p-1 shadow-xl">
-              <img 
-                src={profileAvatar} 
-                alt="Allany Filgueiras - Software Engineer" 
-                className="w-full h-full rounded-full object-cover bg-background"
-              />
-            </div>
+            <img 
+              src={profileAvatar} 
+              alt="Allany Filgueiras - Software Engineer" 
+              className="w-48 h-48 mx-auto object-contain"
+            />
           </div>
           
           <h1 className="font-display text-5xl md:text-7xl font-bold text-foreground mb-6">
