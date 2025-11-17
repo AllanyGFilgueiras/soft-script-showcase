@@ -1,6 +1,5 @@
 import { Mail, Linkedin, Github, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import profileAvatar from "@/assets/profile-avatar.png";
 
 const Hero = () => {
   return (
@@ -13,14 +12,6 @@ const Hero = () => {
 
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center animate-fade-in">
-          <div className="mb-6">
-            <img 
-              src={profileAvatar} 
-              alt="Allany Filgueiras - Software Engineer" 
-              className="w-48 h-48 mx-auto object-contain"
-            />
-          </div>
-          
           <h1 className="font-display text-5xl md:text-7xl font-bold text-foreground mb-6">
             Olá, eu sou <span className="bg-gradient-primary bg-clip-text text-transparent">Allany Filgueiras</span>
           </h1>
