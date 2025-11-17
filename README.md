@@ -1,93 +1,190 @@
-# 💻 Projeto Desenvolvido via Lovable
+# 👩‍💻 Portfólio - Allany Filgueiras
 
-## 📄 Visão Geral do Projeto
+Portfólio profissional de Allany Filgueiras, Engenheira de Software com experiência em projetos de grande escala, incluindo desenvolvimento no Mercado Livre.
 
-Este repositório contém o código-fonte de uma aplicação web gerada e gerenciada através da plataforma Lovable.
+[![Desenvolvido com Lovable](https://img.shields.io/badge/Developed%20with-Lovable-ff69b4)](https://lovable.dev/projects/d9558cac-06bd-4c77-bb6c-5ea6d76bbb93)
 
-**URL do Projeto Lovable**: https://lovable.dev/projects/d9558cac-06bd-4c77-bb6c-5ea6d76bbb93
+## 🚀 Sobre o Projeto
 
----
+Este é meu portfólio pessoal, desenvolvido para apresentar minha experiência profissional, projetos e habilidades técnicas de forma moderna e interativa. O site foi construído com foco em performance, design responsivo e experiência do usuário.
 
-## ⚙️ Tecnologias Utilizadas
+## ✨ Funcionalidades
 
-O projeto foi construído com uma *stack* moderna, visando alto desempenho e manutenibilidade:
+- 🎨 Design moderno e responsivo com animações suaves
+- 🌓 Interface otimizada para todos os dispositivos
+- 📱 Totalmente responsivo para mobile, tablet e desktop
+- 🎯 Seções organizadas: Hero, Experiência, Projetos, Habilidades e Contato
+- 📧 Formulário de contato funcional
+- ⚡ Performance otimizada com Vite
+- 🎭 Componentes reutilizáveis e tipados com TypeScript
 
-* **Framework/Biblioteca**: React
-* **Gerador de Projeto**: Vite
-* **Linguagem**: TypeScript
-* **Estilização**: Tailwind CSS
-* **Componentes UI**: shadcn-ui
+## 🛠️ Tecnologias Utilizadas
 
----
+O projeto foi construído com uma stack moderna, visando alto desempenho e manutenibilidade:
 
-## 🚀 Instalação e Desenvolvimento Local
+### Core
+- **[React 18](https://react.dev/)** - Biblioteca JavaScript para construção de interfaces
+- **[TypeScript](https://www.typescriptlang.org/)** - Superset JavaScript com tipagem estática
+- **[Vite](https://vitejs.dev/)** - Build tool e dev server de alta performance
 
-Para configurar e executar o projeto em seu ambiente local, siga as instruções abaixo.
+### Estilização & UI
+- **[Tailwind CSS](https://tailwindcss.com/)** - Framework CSS utility-first
+- **[shadcn/ui](https://ui.shadcn.com/)** - Componentes de UI acessíveis e customizáveis
+- **[Lucide React](https://lucide.dev/)** - Biblioteca de ícones moderna
+- **[Tailwind Animate](https://github.com/jamiebuilds/tailwindcss-animate)** - Animações com Tailwind
 
-### Pré-requisitos
+### Formulários & Validação
+- **[React Hook Form](https://react-hook-form.com/)** - Gerenciamento de formulários performático
+- **[Zod](https://zod.dev/)** - Validação de schemas TypeScript-first
 
-* Node.js (v18.x ou superior)
-* npm (gerenciador de pacotes Node.js)
+### Roteamento
+- **[React Router DOM](https://reactrouter.com/)** - Roteamento para aplicações React
 
-### Passos para Configuração
+## 📋 Pré-requisitos
 
-1.  **Clonar o Repositório**:
-    ```sh
-    git clone https://github.com/AllanyGFilgueiras/Allany-Portfolio-AI.git
-    ```
+Antes de começar, você precisa ter instalado em sua máquina:
 
-2.  **Navegar até o Diretório**:
-    ```sh
-    cd Allany-Portfolio-AI
-    ```
+- [Node.js](https://nodejs.org/) (versão 18 ou superior)
+- [npm](https://www.npmjs.com/) ou [yarn](https://yarnpkg.com/)
 
-3.  **Instalar Dependências**:
-    ```sh
-    npm i
-    ```
+## 🔧 Instalação
 
-4.  **Iniciar o Servidor de Desenvolvimento**:
-    O servidor será iniciado com recarga automática (*hot-reloading*) e um *preview* instantâneo.
-    ```sh
-    npm run dev
-    ```
+1. Clone este repositório:
+```bash
+git clone https://github.com/AllanyGFilgueiras/Allany-Portfolio-AI.git
+```
 
----
+2. Acesse a pasta do projeto:
+```bash
+cd Allany-Portfolio-AI
+```
+
+3. Instale as dependências:
+```bash
+npm install
+# ou
+yarn install
+```
+
+## 🎮 Como Executar
+
+### Modo de Desenvolvimento
+
+```bash
+npm run dev
+# ou
+yarn dev
+```
+
+O projeto estará disponível em `http://localhost:5173`
+
+### Build para Produção
+
+```bash
+npm run build
+# ou
+yarn build
+```
+
+### Preview do Build
+
+```bash
+npm run preview
+# ou
+yarn preview
+```
+
+## 📦 Estrutura do Projeto
+
+```
+src/
+├── components/        # Componentes React
+│   ├── ui/           # Componentes shadcn/ui
+│   ├── Hero.tsx      # Seção principal com apresentação
+│   ├── Experience.tsx # Experiência profissional
+│   ├── Projects.tsx  # Projetos realizados
+│   ├── Skills.tsx    # Habilidades técnicas
+│   ├── Contact.tsx   # Formulário de contato
+│   └── Footer.tsx    # Rodapé
+├── pages/            # Páginas da aplicação
+│   ├── Index.tsx     # Página principal
+│   └── NotFound.tsx  # Página 404
+├── hooks/            # Custom hooks
+├── lib/              # Utilitários e configurações
+└── main.tsx          # Ponto de entrada da aplicação
+```
 
 ## 📝 Métodos de Edição e Contribuição
 
-As alterações no código podem ser realizadas através de diversos fluxos de trabalho.
-
 ### 1. Plataforma Lovable
 
-As modificações feitas diretamente na [Plataforma Lovable](https://lovable.dev/projects/d9558cac-06bd-4c77-bb6c-5ea6d76bbb93) são automaticamente sincronizadas e *commitadas* neste repositório.
+As modificações feitas diretamente na [Plataforma Lovable](https://lovable.dev/projects/d9558cac-06bd-4c77-bb6c-5ea6d76bbb93) são automaticamente sincronizadas com este repositório.
 
 ### 2. IDE Local (Fluxo Git Tradicional)
 
-O desenvolvimento local é suportado. Após as edições, utilize o fluxo Git padrão para enviar as alterações:
+O desenvolvimento local é suportado. Após as edições, utilize o fluxo Git padrão:
 
-```sh
+```bash
 git add .
 git commit -m "feat: Adiciona nova funcionalidade X"
-git push origin <branch>
-3. GitHub (Edição Direta ou Codespaces)
-Edição Direta: Utilize o botão "Edit" (lápis) no arquivo desejado no GitHub.
+git push origin main
+```
 
-GitHub Codespaces: Inicie um novo ambiente Codespace a partir da página principal do repositório para um ambiente de desenvolvimento em nuvem.
+### 3. GitHub (Edição Direta ou Codespaces)
 
-📦 Implantação (Deployment)
-A implantação do projeto é gerenciada diretamente pela plataforma Lovable.
+- **Edição Direta**: Utilize o botão "Edit" (lápis) no arquivo desejado
+- **GitHub Codespaces**: Inicie um ambiente Codespace para desenvolvimento em nuvem
 
-Publicação
-Para publicar uma nova versão ou build, acesse o projeto na Lovable e utilize a opção:
+## 🚀 Deploy
 
-Share -> Publish
+### Deploy via Lovable
 
-Domínio Personalizado
-É possível configurar um domínio personalizado para a aplicação.
+O deploy do projeto é gerenciado pela plataforma Lovable:
 
-Navegue até: Project > Settings > Domains.
+1. Acesse o projeto na Lovable
+2. Clique em **Share → Publish**
 
-Clique em Connect Domain.
+### Deploy em Outras Plataformas
 
-Para mais detalhes, consulte a documentação da Lovable: Setting up a custom domain.
+Este projeto pode ser facilmente deployado em:
+
+- [Vercel](https://vercel.com/)
+- [Netlify](https://www.netlify.com/)
+- [GitHub Pages](https://pages.github.com/)
+
+### Domínio Personalizado
+
+Para configurar um domínio personalizado via Lovable:
+
+1. Navegue até: **Project > Settings > Domains**
+2. Clique em **Connect Domain**
+3. Siga as instruções de configuração DNS
+
+Consulte a [documentação da Lovable](https://docs.lovable.dev/) para mais detalhes.
+
+## 👩‍💻 Autora
+
+**Allany Filgueiras**  
+*Engenheira de Software*
+
+- 📧 Email: [allanyfilgueiras@gmail.com](mailto:allanyfilgueiras@gmail.com)
+- 💼 LinkedIn: [linkedin.com/in/allanyfilgueiras](https://linkedin.com/in/allanyfilgueiras)
+- 📍 Localização: Brasil
+
+### Experiência
+
+Ex-Mercado Livre | Especialista em React, Node.js, Python e Go | Foco em IA e sistemas de grande escala
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.
+
+---
+
+<div align="center">
+
+⭐ Desenvolvido com React, TypeScript e ❤️ por Allany Filgueiras
+
+[⬆ Voltar ao topo](#-portfólio---allany-filgueiras)
+
+</div>
